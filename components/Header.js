@@ -37,7 +37,16 @@ const Header = () => {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">FAQ</a>
         </li>
-
+        <li className="nav-item">
+        <a className="d-flex align-content-center nav-item">
+          <Image
+            alt="logo"
+            src="/logo.png"
+            width={100}
+            height={50}
+          />
+          </a>
+        </li>
       </ul>
      
     </div>
