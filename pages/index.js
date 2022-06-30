@@ -7,6 +7,7 @@ import { useState } from 'react';
 const index = () => {
  
   setTimeout(function(){
+    
     window.location.href = '/home';
  }, 5000);
 
