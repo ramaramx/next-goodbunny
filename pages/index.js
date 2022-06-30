@@ -8,7 +8,7 @@ const index = () => {
  
   setTimeout(function(){
     window.location.href = '/home';
- }, 3500);
+ }, 5000);
 
 
   function Progress({ done }) {
