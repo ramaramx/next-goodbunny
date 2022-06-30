@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import '/node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 const Header = () => {

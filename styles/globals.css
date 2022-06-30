@@ -1,16 +1,65 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+h3{
+  text-align:center;
+  font-size: 32px;
+  font-weight: 800;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.body-loading {
+	background: url(https://ik.imagekit.io/hb3xvs4lu/BACKGROUND_5u3g4S4m4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656579000145);
+	background-repeat: no-repeat;
+	background-size: cover;
+	  background-color: #f4f4f4;
+	  flex-direction: column;
+	  font-family: 'lato', sans-serif;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  height: 100vh;
+	  margin: 0;
+	font-weight: 800;
+
 }
 
-* {
-  box-sizing: border-box;
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 60px;
+	width: 300px;
+}
+
+.progress-done {
+	background: linear-gradient(to right, #EAEFCF, #F0B6C0);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+  font-size: 16px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 4s ease 0.2s;
+}
+
+.enter{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 60px;
+	  width: 300px;
+    background: linear-gradient(to right, #EAEFCF, #F0B6C0);
+    color: white;
+    font-size: 16px;
+    animation: clickit 6s
+}
+@keyframes clickit {
+    0% {opacity: 0}
+    80% {opacity: 0}
+    100% {opacity: 1}
 }
