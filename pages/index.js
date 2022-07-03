@@ -18,7 +18,9 @@ const index = () => {
     setTimeout(() => {
       const newStyle = {
         opacity: 1,
-        width: `${done}%`
+        width: `${done}%`,
+        height: 100,
+        
       };
   
       setStyle(newStyle);
