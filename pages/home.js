@@ -49,7 +49,8 @@ export default function Home(){
 
    <div className='jumbotron' style={{background:"#2368a2", marginTop:"-10px" , paddingTop:"100px" , paddingBottom:"100px"}}>
   
-      
+{/* perbaiki container */}
+
      <h3 className='container ' style={{color:"white", textAlign:"center"}}>A friendly and loving community who believes that anyone from anywhere regardless of
 background, social status, age, race & gender can <h3 className='badge bg-warning text-wrap' style={{color:'#2368a2', fontSize:'28px'}}>COLLECTIVELY</h3> make a <h3 className='badge bg-warning text-wrap' style={{color:'#2368a2', fontSize:'28px'}}>POSITIVE IMPACT</h3> to the
 world. Consisting of  <h3 className='badge bg-success text-wrap' style={{color:'white', fontSize:'28px'}}>7,777 uniquely AI powered generative NFT bunnies </h3> surfing & hopping around
@@ -103,38 +104,142 @@ Changemakers on Earth,<h3 className='badge bg-danger text-wrap' style={{color:'w
       <><Profile/>
       <><Partner/>
 
-      <div className="accordion accordion-flush" id="accordionFlushExample">
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="flush-headingOne">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
+
+  <div className='bg-section7'>
+    <div className='container'>
+      <h1 className='text-center text-white py-5 px-5'>FAQ</h1>
+  {/* 1 */}
+      <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
       </button>
-    </h2>
-    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      </div>
+
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample1" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
     </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="flush-headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
+    {/* 2 */}
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
       </button>
-    </h2>
-    <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample2" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
     </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="flush-headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
+    {/* 3 */}
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
       </button>
-    </h2>
-    <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample3" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
     </div>
+    {/* 4 */}
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample4">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+      </button>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample4" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
+    </div>
+    {/* 5 */}
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample5">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+      </button>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample5" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
+    </div>
+    {/* 6 */}
+
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample6" aria-expanded="false" aria-controls="collapseWidthExample6">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+      </button>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample6" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
+    </div>
+    {/* 7 */}
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample7" aria-expanded="false" aria-controls="collapseWidthExample7">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+      </button>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse" id="collapseWidthExample7" >
+        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
+        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+        </div>
+      </div>
+    </div>
+    {/* 8 */}
+    <div className='d-grid gap-2'>
+      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample8" aria-expanded="false" aria-controls="collapseWidthExample8">
+      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
+      </button>
+      </div>
+    
+    <div style={{minHeight: "20px"}}>
+      <div className="collapse-vertical collapse " id="collapseWidthExample8" >
+        <div className="card card-body rounded-pill " style={{width: '1300px'  }}>
+        <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing</h4>
+        </div>
+      </div>
+    </div>
+   
+    <div className='container py-5'>
+      <h1 className='text-center text-white '>BE A CHANGEMAKER,</h1> 
+      <h1 className='text-center text-white'>JOIN OUR MOVEMENT NOW!</h1>
+    </div>
+   
+   
+      <div className="container icon-footer py-3 px-5"> 
+        <a href="https://twitter.com"><Image src="/twitter-footer.png" alt="twitter" width={150} height={150} /></a>
+        <a href="#"><Image src="/instagram-footer.png" alt="instagram" width={150} height={150}/></a>
+        <a href="#"><Image src="/discord-footer.png" alt="discord" width={150} height={150}/></a>
+      </div>
+    
+
+
   </div>
 </div>
+
+
    </>
    </>
    </>

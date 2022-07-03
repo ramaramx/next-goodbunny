@@ -107,6 +107,19 @@ text-align: left;
 	margin-top: -250px;
 	}
 
+.bg-section6{
+margin: 0;
+}
+
+.bg-section7{
+	background-color: #eb407b;
+}
+
+.icon-footer{
+	display: flex;
+	justify-content: center;
+}
+
 
 
 /* media queries */
