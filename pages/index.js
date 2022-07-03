@@ -37,9 +37,13 @@ const index = () => {
   return (
     <>
     <div className='body-loading'>
-    <h3>HOP, INTO A WORLD</h3> 
+    <h3 style={{  textAlign:'center',
+  fontSize: '32px',
+  fontWeight:'800'}}>HOP, INTO A WORLD</h3> 
 		<Progress done="100"/>
-		<h3>OF GOODNES..</h3>
+		<h3 style={{  textAlign:'center',
+  fontSize: '32px',
+  fontWeight:'800'}}>OF GOODNES..</h3>
     </div>
         </>
   )

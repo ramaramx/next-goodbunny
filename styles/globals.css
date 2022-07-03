@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 
-h3{
-  text-align:center;
-  font-size: 32px;
-  font-weight: 800;
-}
+
 
 .body-loading {
 	background: url(https://ik.imagekit.io/hb3xvs4lu/BACKGROUND_5u3g4S4m4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656579000145);
@@ -63,3 +59,99 @@ h3{
     80% {opacity: 0}
     100% {opacity: 1}
 }
+
+.bg-section1{
+	background: #2368a2;
+	background-size: cover;
+
+}
+
+.prev {
+	color: black;
+	position: absolute;
+	top: 45%;
+	left: -10px;
+	font-size: 1.5em;}
+
+	.prev:hover {
+	  cursor: pointer;
+	  color: black;
+	}
+  
+
+  .next {
+	color: black;
+	position: absolute;
+	top: 45%;
+	right: 10px;
+	font-size: 1.5em;}
+
+	.next:hover {
+	  cursor: pointer;
+	  color: black;
+	}
+  
+
+  .fact {
+	vertical-align: top;
+	display: inline-block;
+	height: auto;
+	width: 200px;
+	background-color: white;
+	padding: 20px;
+	margin: 0px 25px 0px 5px;
+	border-radius: 15px;
+	box-shadow:
+	  0 1.6px 3.6px rgba(0, 0, 0, 0.01),
+	  0 4.5px 10px rgba(0, 0, 0, 0.015),
+	  0 10.9px 24.1px rgba(0, 0, 0, 0.02),
+	  0 36px 80px rgba(0, 0, 0, 0.03);
+  }
+
+  /* icon navbar */
+
+.bg-section3{
+	background: url(/transisi2.png);
+	height: 400px;
+	background-position: 50%;
+}
+
+.section3{
+	background: #ec628d;
+	height: 100%;
+	width: 100%;
+	
+	padding-bottom: 100px;
+}
+
+.h2-section3{
+color: white;
+text-align: left;
+}
+
+.h3-section3{
+	color: white;
+	text-align: left;
+}
+
+
+
+
+
+/* media queries */
+
+.swiper-container {
+	width: 1000px;
+  }
+  
+  @media screen and (min-width: 640px) {
+	.swiper-container {
+	  width: 640px;
+	}
+  }
+  
+  @media screen and (min-width: 768px) {
+	.swiper-container {
+	  width: 1000px;
+	}
+  }
