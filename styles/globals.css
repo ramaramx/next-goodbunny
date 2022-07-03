@@ -66,48 +66,6 @@
 
 }
 
-.prev {
-	color: black;
-	position: absolute;
-	top: 45%;
-	left: -10px;
-	font-size: 1.5em;}
-
-	.prev:hover {
-	  cursor: pointer;
-	  color: black;
-	}
-  
-
-  .next {
-	color: black;
-	position: absolute;
-	top: 45%;
-	right: 10px;
-	font-size: 1.5em;}
-
-	.next:hover {
-	  cursor: pointer;
-	  color: black;
-	}
-  
-
-  .fact {
-	vertical-align: top;
-	display: inline-block;
-	height: auto;
-	width: 200px;
-	background-color: white;
-	padding: 20px;
-	margin: 0px 25px 0px 5px;
-	border-radius: 15px;
-	box-shadow:
-	  0 1.6px 3.6px rgba(0, 0, 0, 0.01),
-	  0 4.5px 10px rgba(0, 0, 0, 0.015),
-	  0 10.9px 24.1px rgba(0, 0, 0, 0.02),
-	  0 36px 80px rgba(0, 0, 0, 0.03);
-  }
-
   /* icon navbar */
 
 .bg-section3{
@@ -120,7 +78,6 @@
 	background: #ec628d;
 	height: 100%;
 	width: 100%;
-	
 	padding-bottom: 100px;
 }
 
@@ -134,7 +91,21 @@ text-align: left;
 	text-align: left;
 }
 
+.bg-section4{
+	background: #7eae5c;
+	height: 400px;
+	width: 100%;
+	margin-top: -10px;
+	padding-bottom: 1600px;
+}
 
+.bg-section5{
+	background: url(/transisi4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	margin-top: -250px;
+	}
 
 
 
@@ -151,6 +122,20 @@ text-align: left;
   }
   
   @media screen and (min-width: 768px) {
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
 	.swiper-container {
 	  width: 1000px;
 	}
