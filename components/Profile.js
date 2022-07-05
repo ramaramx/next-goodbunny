@@ -21,14 +21,14 @@ const Profile = () => {
             </div>
 
             <div className='col-md-6'>
-                <h3>Full time mother & a Poodle Mama. 
+                <h3 style={{color:'white'}}>Full time mother & a Poodle Mama. 
                     Jakarta-based visual artist/illustrator, exhibited 
                     in Indonesian National Gallery
                     10+ years in the creative & contemporary art 
                     world and 6 + years in advertising agency
                     Comic maker of Problema Nona & NFT Artist</h3>
                     <br/>
-                    <h3>In the past 4 years, Sanchia has been 
+                    <h3 style={{color:'white'}}>In the past 4 years, Sanchia has been 
                     producing comics and podcasts about being a 
                     women in Indonesia called "Problema Nona", 
                     the comics were made from real stories 
@@ -42,13 +42,13 @@ const Profile = () => {
                     made me realised how urgent it is for us to 
                     make progress.</h3>
                     <br/>
-                    <h3>"This project is a place I've been looking an 
+                    <h3 style={{color:'white'}}>"This project is a place I've been looking an 
                         answer for. A place where my art can have 
                         bigger impact on sustainable development 
                         goals, especially towards women's children's 
                         health & safety, and many others."</h3>
                         <br/>
-                        <h3>Over the years, Sanchia has worked with many 
+                        <h3 style={{color:'white'}}>Over the years, Sanchia has worked with many 
                             clients and brands such as:</h3>
 
                             

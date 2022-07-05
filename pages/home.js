@@ -4,6 +4,7 @@ import Slider from '/components/Slider.js'
 import Benefit from '/components/Benefit.js'
 import Profile from '/components/Profile.js'
 import Partner from '/components/Partner.js'
+import Faq  from '/components/Faq'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 
@@ -103,143 +104,12 @@ Changemakers on Earth,<h3 className='badge bg-danger text-wrap' style={{color:'w
       />
       <><Profile/>
       <><Partner/>
+      <><Faq/>
 
 
-  <div className='bg-section7'>
-    <div className='container'>
-      <h1 className='text-center text-white py-5 px-5'>FAQ</h1>
-  {/* 1 */}
-      <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
+  
 
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample1" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 2 */}
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample2" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 3 */}
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample3" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 4 */}
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample4">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample4" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 5 */}
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample5">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample5" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 6 */}
-
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample6" aria-expanded="false" aria-controls="collapseWidthExample6">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample6" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 7 */}
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample7" aria-expanded="false" aria-controls="collapseWidthExample7">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse" id="collapseWidthExample7" >
-        <div className="card card-body rounded-pill" style={{width: '1300px'  }}>
-        <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-        </div>
-      </div>
-    </div>
-    {/* 8 */}
-    <div className='d-grid gap-2'>
-      <button className="btn btn-primary collapsed text-start rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample8" aria-expanded="false" aria-controls="collapseWidthExample8">
-      <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing</h2>
-      </button>
-      </div>
-    
-    <div style={{minHeight: "20px"}}>
-      <div className="collapse-vertical collapse " id="collapseWidthExample8" >
-        <div className="card card-body rounded-pill " style={{width: '1300px'  }}>
-        <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing</h4>
-        </div>
-      </div>
-    </div>
-   
-    <div className='container py-5'>
-      <h1 className='text-center text-white '>BE A CHANGEMAKER,</h1> 
-      <h1 className='text-center text-white'>JOIN OUR MOVEMENT NOW!</h1>
-    </div>
-   
-   
-      <div className="container icon-footer py-3 px-5"> 
-        <a href="https://twitter.com"><Image src="/twitter-footer.png" alt="twitter" width={150} height={150} /></a>
-        <a href="#"><Image src="/instagram-footer.png" alt="instagram" width={150} height={150}/></a>
-        <a href="#"><Image src="/discord-footer.png" alt="discord" width={150} height={150}/></a>
-      </div>
-    
-
-
-  </div>
-</div>
-
-
+   </>
    </>
    </>
    </>
