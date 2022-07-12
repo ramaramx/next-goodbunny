@@ -20,19 +20,10 @@ const index = () => {
   
     
     setTimeout(() => {
-      var counter = 0;
-      var c = 0;
-      var i = setInterval(() => {
-        
-      }, interval);
       const newStyle = {
-        
-
         opacity: 1,
-        width: `${done}%`,
-        Image:'url(/logo.png)'
-        
-        
+        Image:'url(/logo.png)',
+        width: `${done}%`
       };
   
       setStyle(newStyle);
