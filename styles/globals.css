@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+	font-family: 'poppins';
+}
 
 
 
 
 .body-loading {
-	background: url(https://ik.imagekit.io/hb3xvs4lu/BACKGROUND_5u3g4S4m4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656579000145);
+	background: url(/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	  background-color: #f4f4f4;
@@ -22,8 +24,10 @@
 
 .progress {
 	background-color: #d8d8d8;
-	border-radius: 20px;
+	border-radius: 50px;
+	border: solid;
 	position: relative;
+	padding: 1px;
 	margin: 15px 0;
 	height: 100px;
 	width: 350px;
@@ -32,7 +36,7 @@
 .progress-done {
 	background: linear-gradient(to right, #EAEFCF, #F0B6C0);
 	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
-	border-radius: 20px;
+	border-radius: 50px;
   font-size: 16px;
 	color: #fff;
 	display: flex;
@@ -44,33 +48,92 @@
 	transition: 4s ease 0.2s;
 }
 
-.enter{
-    border: 1px solid transparent;
-    border-radius: 15px;
-    height: 60px;
-	  width: 300px;
-    background: linear-gradient(to right, #EAEFCF, #F0B6C0);
-    color: white;
-    font-size: 16px;
-    animation: clickit 6s
-}
-@keyframes clickit {
-    0% {opacity: 0}
-    80% {opacity: 0}
-    100% {opacity: 1}
+.progress-done::after{
+	background: url(/logo.png);
 }
 
+/* section 1 */
 .bg-section1{
 	background: #2368a2;
 	background-size: cover;
 
 }
 
+
+
+/* load-first */
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #0b0b0b;
+	display: grid;
+	place-items: center;
+  }
+
+  .loader {
+	border: 16px solid #e3e3e3;
+	border-top: 16px solid #3498db;
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	animation: spin 0.5s linear infinite;
+  }
+
+  @keyframes spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+
   /* icon navbar */
 
+  /* section 2 */
+  .badge {
+    display: inline-block;
+    padding: 0.15em 0.15em 0.15em 0.15em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+}
+
+.badge-pink {
+    display: inline-block;
+    padding: 0.15em 0.15em 0.15em 0.15em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    background-color: #e7487c;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+	
+}
+
+.direction-goodbunny-title{
+	margin-right: 40px;
+}
+
+.direction-goodbunny-text{
+    margin-top: -50px;
+	
+}
 .bg-section3{
 	background: url(/transisi2.png);
-	height: 400px;
+	height: 200px;
 	background-position: 50%;
 }
 
@@ -78,8 +141,14 @@
 	background: #ec628d;
 	height: 100%;
 	width: 100%;
-	padding-bottom: 100px;
+	
 }
+
+.goodbunny-title-utility{
+	display: flex;
+	justify-content: center;
+}
+
 
 .h2-section3{
 color: white;
@@ -91,11 +160,19 @@ text-align: left;
 	text-align: left;
 }
 
+.bg-roadmap{
+	background: url(/roadmap.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	height: 1600px;
+	
+}
+
 .bg-section4{
 	background: #7eae5c;
 	height: 400px;
 	width: 100%;
-	margin-top: -10px;
 	padding-bottom: 1600px;
 }
 
@@ -132,11 +209,19 @@ margin: 0;
 	.swiper-container {
 	  width: 640px;
 	}
+	
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
 
-	
+	.bg-roadmap{
+		background: url(/roadmap-mobile.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		height: 300vw;
+		
+	}
 
 
 

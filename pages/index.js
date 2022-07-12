@@ -1,24 +1,36 @@
 import React from 'react'
 import { useState } from 'react';
+import Image from 'next/image';
 
 
 
 
 const index = () => {
  
-  setTimeout(function(){
+  setTimeout(
+    function(){
     
     window.location.href = '/home';
  }, 5000);
 
 
+ 
   function Progress({ done }) {
     const [style, setStyle] = useState({});
   
+    
     setTimeout(() => {
+      var counter = 0;
+      var c = 0;
+      var i = setInterval(() => {
+        
+      }, interval);
       const newStyle = {
+        
+
         opacity: 1,
-        width: `${done}%`
+        width: `${done}%`,
+        Image:'url(/logo.png)'
         
         
       };
@@ -29,7 +41,9 @@ const index = () => {
     return (
       <div className='progress'>
         <div className='progress-done' style={style}>
+          
           {done}%
+          
         </div>
       </div>
       

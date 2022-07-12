@@ -43,6 +43,7 @@ const Header = () => {
         <a href="#"><Image src="/twitter.png" alt="twitter" width={35} height={35}/></a>
         <a href="#"><Image src="/instagram.png" alt="instagram" width={35} height={35}/></a>
         <a href="#"><Image src="/discord.png" alt="discord" width={35} height={35}/></a>
+        <a href="#"><Image src="/discord.png" alt="medium" width={35} height={35}/></a>
         </li>
         <li className="nav-item">
         <a className="d-flex align-content-center nav-item">

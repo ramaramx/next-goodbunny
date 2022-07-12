@@ -6,9 +6,16 @@ const Benefit = () => {
     
     
 <div className='section3 container-fluid'>
-   <h1 style={{color:'white', textAlign:'center'}}>Benefit & Utility</h1>
-   <h2 style={{color:'white', textAlign:'center'}}>FOR GOODBUNNY HOLDERS</h2>
-    <div className='row '>
+ <div className='row '>
+    <div className='container goodbunny-title-utility'>
+    <Image
+   className='d-flex h-70'
+   src="/goodbunny-title-utility.png"
+   alt='utility-title'
+   width={500}
+   height={200}
+   />
+   </div>
       <div className='col-md-2'>
       <Image
       alt='1'
@@ -88,6 +95,9 @@ Sshhh…</h3>
       </div>
     </div>
    </div>
+
+   
+   
  
   
 
